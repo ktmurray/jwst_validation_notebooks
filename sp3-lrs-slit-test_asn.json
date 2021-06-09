@@ -1,0 +1,27 @@
+{
+    "asn_type": "None",
+    "asn_rule": "DMS_Level3_Base",
+    "version_id": null,
+    "code_version": "1.1.0",
+    "degraded_status": "No known degraded exposures in association.",
+    "program": "noprogram",
+    "constraints": "No constraints",
+    "asn_id": "a3001",
+    "target": "none",
+    "asn_pool": "none",
+    "products": [
+        {
+            "name": "combine_dithers_exposures",
+            "members": [
+                {
+                    "expname": "miri_lrs_slit_pt_nod2_v2_cal.fits",
+                    "exptype": "science"
+                },
+                {
+                    "expname": "miri_lrs_slit_pt_nod1_v2_cal.fits",
+                    "exptype": "science"
+                }
+            ]
+        }
+    ]
+}
