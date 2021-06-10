@@ -1,0 +1,15 @@
+{"asn_id": "a3001", "program": "82600", "asn_rule": "Asn_MIRI_BkgNod",
+ "products": [
+   {"name": "test_lrs1",
+     "members": [
+       {"exptype": "science", "expname": "det_image_seq1_MIRIMAGE_P750Lexp1_rate.fits"},
+       {"exptype": "background", "expname": "det_image_seq2_MIRIMAGE_P750Lexp1_rate.fits"}
+   ]},
+   {"name": "test_lrs2",
+     "members": [
+       {"exptype": "science", "expname": "det_image_seq2_MIRIMAGE_P750Lexp1_rate.fits"},
+       {"exptype": "background", "expname": "det_image_seq1_MIRIMAGE_P750Lexp1_rate.fits"}
+   ]}],
+ "target": "2MASS-J00243075-6635527",
+ "asn_type": "spec2",
+ "asn_pool": "jw82600_001_20160304T145416_pool"}
